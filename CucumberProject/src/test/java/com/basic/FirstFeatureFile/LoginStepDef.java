@@ -21,6 +21,7 @@ public class LoginStepDef {
 		driver = new ChromeDriver();	
 		System.setProperty("webdriver.chrome.driver","E:\\Cucumber SetUp\\chromedriver_win32\\chromedriver.exe");
 		driver.get("https://www.linkedin.com/login");
+		System.out.println("change made");
 	}
 
 	
